@@ -1,0 +1,31 @@
+﻿
+# ===== Qt 构建产物 =====
+build/
+debug/
+release/
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+Makefile
+Makefile.Debug
+Makefile.Release
+*.pro.user
+.qmake.stash
+
+# ===== 会反复出现的 uic 生成头（就是之前坑了我们半天的那些）=====
+ui_*.h
+_uic_backup/
+
+# ===== Qt Creator / Qt VS Tools 私有文件 =====
+.qtcreator/
+Wechat.vcxproj.user
+Wechat.qtvscr
+
+# ===== 其它 =====
+rc.qrc.bak
+Thumbs.db
